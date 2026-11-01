@@ -1,0 +1,716 @@
+<!-- ==========================================================================
+     💍 PAWIWAHAN THEME 1 - APLIKASI WEB UNDANGAN PERNIKAHAN ADAT BALI
+     ==========================================================================
+     Arsitektur: HTML5 Semantik, Skala Viewport Dinamis, Optimasi SEO & JSON-LD
+     Dirancang & Dikembangkan dengan ❤️ oleh WinandaDev
+     ========================================================================== -->
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <!-- ==========================================================================
+         01. METADATA HEAD, SEO OPENGRAPH & TWITTER CARD
+         ========================================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Anugrah Shafaat & Sri Endah Farhatunnisa</title>
+    <meta name="description"
+        content="Undangan Pernikahan Digital Edi & . Mohon doa restu dan kehadiran Bapak/Ibu/Saudara/i pada hari bahagia kami, Selasa, 12 Januari 2027 di Serang, Banten.">
+    <meta name="keywords"
+        content="Undangan Pernikahan, Pawiwahan Bali, Edi dan Winda, Pernikahan Bali, Undangan Digital, Manusa Yadnya">
+    <meta name="author" content="Edi & Winda">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#1a202c">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://winanda150.github.io/pawiwahan-theme-1/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="Undangan Pawiwahan Edi & Winda">
+    <meta property="og:url" content="https://winanda150.github.io/pawiwahan-theme-1/">
+    <meta property="og:title" content="Undangan Pawiwahan | Edi & Winda">
+    <meta property="og:description"
+        content="Selasa, 12 Januari 2026 - Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami.">
+    <meta property="og:image"
+        content="https://winanda150.github.io/pawiwahan-theme-1/Elemen/Photo%20Gallery/Foto5.jpg">
+    <meta property="og:image:secure_url"
+        content="https://winanda150.github.io/pawiwahan-theme-1/Elemen/Photo%20Gallery/Foto5.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Foto Undangan Pernikahan Edi dan Winda">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://winanda150.github.io/pawiwahan-theme-1/">
+    <meta name="twitter:title" content="Undangan Pawiwahan | Edi & Winda">
+    <meta name="twitter:description" content="Selsa,!2 Januari 2027 - Mohon doa restu pada acara pernikahan kami.">
+    <meta name="twitter:image"
+        content="https://winanda150.github.io/pawiwahan-theme-1/Elemen/Photo%20Gallery/Foto5.jpg">
+    <meta name="twitter:image:alt" content="Foto Undangan Pernikahan Edi dan Winda">
+
+    <!-- ==========================================================================
+         02. MANIFEST PWA, FAVICON & PRELOAD PRIORITAS TINGGI
+         ========================================================================== -->
+    <!-- Web App Manifest & Favicon -->
+    <link rel="icon" href="Elemen/Elemen%20Pendukung/Icon.ico" type="image/x-icon">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Resource Hints & Critical Preloads -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="Elemen/Photo%20Gallery/Cover1.jpg" fetchpriority="high">
+
+    <!-- Core Stylesheet (Immediate) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Non-blocking Fonts & Secondary Styles -->
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;500&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;500&display=swap"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;500&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </noscript>
+
+    <link rel="preload" as="style" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    </noscript>
+
+    <!-- ==========================================================================
+         03. DATA TERSTRUKTUR SCHEMA.ORG JSON-LD (GOOGLE RICH RESULTS)
+         ========================================================================== -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Undangan Pernikahan Aang & Endah",
+      "description": "Undangan Pernikahan Anugrah Shafaat dan Sri Endah Farhatunnisa.",
+      "inLanguage": "id"
+    },
+    {
+      "@type": "Event",
+      "name": "Pernikahan Aang & Endah",
+      "description": "Undangan pernikahan Anugrah Shafaat dan Sri Endah Farhatunnisa.",
+      "startDate": "2027-01-12T08:00:00+07:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Kediaman Mempelai",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "V7GG+6FF, Luwung Semut",
+          "addressLocality": "Jeruktipis, Kragilan",
+          "addressRegion": "Banten",
+          "postalCode": "42184",
+          "addressCountry": "ID"
+        }
+      },
+      "organizer": {
+        "@type": "Person",
+        "name": "Anugrah Shafaat dan Sri Endah Farhatunnisa"
+      },
+      "image": [
+        "Elemen/Photo%20Gallery/Foto5.jpg"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+    <!-- ==========================================================================
+         04. KONTROLER MUSIK LATAR MENGAMBANG & STATUS NOTIFIKASI HUD
+         ========================================================================== -->
+    <audio id="bg-music" src="Elemen/Elemen%20Pendukung/Music.mp3" preload="none" loop></audio>
+    <button id="music-control" class="music-control" aria-label="Kontrol Musik">
+        <i class="bi bi-volume-mute-fill"></i>
+    </button>
+    <span id="music-status-text" class="music-status-text">Music Off</span>
+
+    <!-- ==========================================================================
+         05. SECTION COVER UTAMA (BUKA UNDANGAN & PARTIKEL EMAS)
+         ========================================================================== -->
+    <section id="cover" class="cover">
+        <div class="cover-bg">
+            <img src="Elemen/Photo%20Gallery/Cover1.jpg" alt="Foto Cover Pernikahan Adat Bali Edi dan Winda"
+                class="bg-image img-1" fetchpriority="high" decoding="async">
+            <img src="Elemen/Photo%20Gallery/Cover2.jpg" alt="Foto Pasangan Mempelai Edi dan Winda"
+                class="bg-image img-2" fetchpriority="low" decoding="async" loading="lazy">
+        </div>
+        <div id="particles-container" class="particles-container"></div>
+        <div class="cover-content">
+            <h1 class="cinzel-font">Aang Dan Endah</h1>
+            <p class="event-date"> Selasa,!2 Januari 2027 </p>
+            <p class="recipient-text">Kepada Bapak/Ibu/Saudara/i,</p>
+            <h2 id="guest-name" class="guest-name">Tamu Undangan</h2>
+            <button class="open-btn" id="btn-open">Buka Undangan</button>
+        </div>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
+
+    <!-- ==========================================================================
+         06. PROFIL MEMPELAI & AYAT SUCI MANTRA RG VEDA
+         ========================================================================== -->
+    <section id="main-content" class="mempelai-section">
+        <div class="container text-center">
+            <div class="opening-greeting">
+                <h2 class="cinzel-font" data-aos="fade-up">Assalāmu ‘alaikum wa raḥmatullāhi wa barakātuh</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Atas Rahmat Tuhan Yang Maha Esa kami bermaksud
+                    mengundang Bapak/Ibu/Saudara/i pada Acara Pernikahan Putra dan Putri
+                    kami.</p>
+            </div>
+
+            <div class="couple-container mt-5" style="overflow-x: hidden;">
+                <!-- Mempelai Pria -->
+                <div class="mempelai-card" data-aos="fade-right">
+                    <div class="mempelai-img-wrapper">
+                        <img src="Elemen/Foto%20Pasangan/Foto%20Mempelai%20Pria.jpg"
+                            alt="Foto Mempelai Pria Anugrah Shafaat" class="mempelai-img" loading="lazy"
+                            decoding="async">
+                    </div>
+                    <h3 class="cinzel-font name">Anugrah Shafaat</h3>
+                    <div class="parents">
+                        <p class="intro">Putra pertama dari pasangan</p>
+                        <div class="parent-names">
+                            <strong>Bapak Ali Jaya</strong>
+                            <span class="parent-divider">&</span>
+                            <strong>Ibu Sumaryanah</strong>
+                        </div>
+                    </div>
+                    <p class="address">Kp.Kendayakan Kec.Kragilan Serang-Banten</p>
+                </div>
+
+                <div class="divider cinzel-font">&</div>
+
+                <!-- Mempelai Wanita -->
+                <div class="mempelai-card" data-aos="fade-left">
+                    <div class="mempelai-img-wrapper">
+                        <img src="Elemen/Foto%20Pasangan/Foto%20Mempelai%20Wanita.jpg"
+                            alt="Foto Mempelai Wanita Winda Aprilia Dewi" class="mempelai-img" loading="lazy"
+                            decoding="async">
+                    </div>
+                    <h3 class="cinzel-font name">Sri Endah Farhatunnisa</h3>
+                    <div class="parents">
+                        <p class="intro">Putri Pertama dari pasangan</p>
+                        <div class="parent-names">
+                            <strong>Bapak Nurhadi</strong>
+                            <span class="parent-divider">&</span>
+                            <strong>Ibu Ulkiyah</strong>
+                        </div>
+                    </div>
+                    <p class="address">Kp.Luwung Semut Kec.Kragilan Serang-Banten</p>
+                </div>
+            </div>
+
+            <div class="mantra-box mt-5" data-aos="zoom-in">
+                <i class="bi bi-brightness-high mantra-icon"></i>
+                <p class="mantra-sanskrit">"وَمِنْ اٰيَاتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا <br>  وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗاِنَّ فِيْ ذٰلِكَ لَاٰيَاتٍ لِّقَوْمٍ يَتَفَكَّرُوْنَ"</p>
+                <hr class="mantra-divider">
+                <p class="mantra-translation">""Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri,
+                     agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."."</p>
+                <p class="mantra-source cinzel-font">- Qs. Ar-Rum ayat 21 -</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         07. RANGKAIAN ACARA, GOOGLE MAPS/KALENDER & HITUNG MUNDUR
+         ========================================================================== -->
+    <section id="event-details" class="event-section">
+        <div class="container text-center">
+            <h2 class="cinzel-font section-title" data-aos="fade-up">Rangkaian Acara</h2>
+            <div class="event-grid mt-5">
+                <!-- Acara 1: Pawiwahan -->
+                <div class="event-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="event-arch">
+                        <i class="bi bi-flower1 event-icon-top"></i>
+                        <h3 class="cinzel-font">Akad Nikah</h3>
+                        <div class="event-info">
+                            <div class="info-item">
+                                <p>Selasa,!2 Januari 2027</p>
+                            </div>
+                            <div class="info-item">
+                                <p>08.00 WIB </p>
+                            </div>
+                            <div class="info-item">
+                                <p><span class="info-label">Bertempat di</span><br>Kp.Luwung Semut Kec.Kragilan Kab.Serang-Banten</p>
+                            </div>
+                        </div>
+                        <div class="event-buttons">
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Akad+Nikah+Aang+dan+Endah&dates=20270112T010000Z/20270112T030000Z&details=Akad+Nikah+Aang+dan+Endah&location=Kp.+Luwung+Semut,+Kecamatan+Kragilan,+Kabupaten+Serang,+Banten"
+                        target="_blank" rel="noopener noreferrer" class="btn-event"
+                        aria-label="Simpan Jadwal Akad Nikah Aang dan Endah ke Kalender">
+                        <i class="bi bi-calendar-plus"></i>
+                        Simpan Jadwal Akad
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/VzRQcqybfTWrLRNd9"
+                        target="_blank" rel="noopener noreferrer" class="btn-event outline">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Lihat Lokasi
+                    </a>
+                </div>
+                    </div>
+                </div>
+
+                <!-- Acara 2: Resepsi -->
+                <div class="event-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="event-arch">
+                        <i class="bi bi-stars event-icon-top"></i>
+                        <h3 class="cinzel-font">Resepsi</h3>
+                        <div class="event-info">
+                            <div class="info-item">
+                                <p>Selsa,!2 Januari 2027</p>
+                            </div>
+                            <div class="info-item">
+                                <p>10.00 Wib - Selesai</p>
+                            </div>
+                            <div class="info-item">
+                                <p><span class="info-label">Bertempat di</span><br>Kp.Luwung Semut Kec.Kragilan Kab.Serang-Banten</p>
+                            </div>
+                        </div>
+                        <div class="event-buttons">
+                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Resepsi+Aang+dan+Endah&dates=20270112T030000Z/20270112T070000Z&details=Resepsi+Pernikahan+Aang+dan+Endah&location=Kp.+Luwung+Semut,+Kecamatan+Kragilan,+Kabupaten+Serang,+Banten"
+                                target="_blank" rel="noopener noreferrer" class="btn-event"
+                                aria-label="Simpan Jadwal Resepsi Aang dan Endah ke Kalender">
+                                <i class="bi bi-calendar-plus"></i>
+                                Simpan Kalender
+                            </a>
+
+                            <a href="https://maps.app.goo.gl/VzRQcqybfTWrLRNd9"
+                                target="_blank" rel="noopener noreferrer" class="btn-event outline">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                Lihat Lokasi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Countdown Section -->
+            <div id="countdown" class="countdown-container mt-5" data-aos="zoom-in">
+                <div class="countdown-box">
+                    <span id="days">00</span>
+                    <p>Hari</p>
+                </div>
+                <div class="countdown-box">
+                    <span id="hours">00</span>
+                    <p>Jam</p>
+                </div>
+                <div class="countdown-box">
+                    <span id="minutes">00</span>
+                    <p>Menit</p>
+                </div>
+                <div class="countdown-box">
+                    <span id="seconds">00</span>
+                    <p>Detik</p>
+                </div>
+            </div>
+
+            <div class="closing-text mt-5" data-aos="fade-up">
+                <p>Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir
+                    untuk memberikan doa restu. Atas kehadiran dan doa restunya kami ucapkan terima kasih.</p>
+            </div>
+
+            <div class="family-section mt-5">
+                <p class="cinzel-font" data-aos="fade-up">Kami Yang Berbahagia<br>Keluarga</p>
+                <div class="family-names mt-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="family-side">
+                        <strong>Bapak Ali Jaya</strong>
+                        <span class="family-amp">&</span>
+                        <strong>Ibu Sumaryanah</strong>
+                    </div>
+                    <div class="family-side">
+                        <strong>Bapak Nurhadi</strong>
+                        <span class="family-amp">&</span>
+                        <strong>Ibu Ulkiyah</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         08. GALERI FOTO & GRID MASONRY MOMEN BAHAGIA
+         ========================================================================== -->
+    <section id="gallery" class="gallery-section">
+        <div class="container text-center">
+            <h2 class="cinzel-font section-title" data-aos="fade-up">Momen Bahagia</h2>
+
+            <div class="gallery-grid mt-5">
+                <!-- 4 Landscape & 10 Portrait -->
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto1.jpg"
+                        alt="Foto Prewedding Edi & Winda - Busana Tradisional Adat Bali" loading="lazy"
+                        decoding="async"></div>
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto2.jpg"
+                        alt="Foto Prewedding Edi & Winda - Senyuman Penuh Kebahagiaan" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item landscape" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Cover2.jpg"
+                        alt="Foto Prewedding Edi & Winda - Momen Kebersamaan Romantis" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto12.jpg"
+                        alt="Foto Prewedding Edi & Winda - Tatapan Kasih dan Cinta" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto6.jpg"
+                        alt="Foto Prewedding Edi & Winda - Busana Pengantin Elegan" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item landscape" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto3.jpg"
+                        alt="Foto Prewedding Edi & Winda - Pose Anggun dan Menawan" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto4.jpg"
+                        alt="Foto Prewedding Edi & Winda - Momen Mesra Pasangan" loading="lazy" decoding="async"></div>
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto8.jpg"
+                        alt="Foto Prewedding Edi & Winda - Kehangatan Cinta Kasih" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto10.jpg"
+                        alt="Foto Prewedding Edi & Winda - Potret Keanggunan Mempelai" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item landscape" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto5.jpg"
+                        alt="Foto Prewedding Edi & Winda - Pose Bahagia Momen Utama" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item portrait momen11" data-aos="zoom-in"><img
+                        src="Elemen/Photo%20Gallery/Foto11.jpg"
+                        alt="Foto Prewedding Edi & Winda - Nuansa Klasik Budaya Bali" loading="lazy" decoding="async">
+                </div>
+                <div class="gallery-item portrait" data-aos="zoom-in"><img src="Elemen/Photo%20Gallery/Foto9.jpg"
+                        alt="Foto Prewedding Edi & Winda - Keindahan Cinta Abadi" loading="lazy" decoding="async"></div>
+                <div class="gallery-item landscape momen13" data-aos="zoom-in"><img
+                        src="Elemen/Photo%20Gallery/Foto7.jpg"
+                        alt="Foto Prewedding Edi & Winda - Dokumentasi Momen Spesial" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         09. KONFIRMASI KEHADIRAN & BUKU TAMU REAL-TIME FIRESTORE
+         ========================================================================== -->
+    <section id="attendance" class="attendance-section">
+        <div class="container">
+            <h2 class="cinzel-font section-title text-center" data-aos="fade-up">Konfirmasi & Doa Restu</h2>
+            <div class="attendance-wrapper mt-5">
+                <!-- Kolom Form (Kiri) -->
+                <div class="attendance-form-container" data-aos="fade-right" data-aos-delay="200">
+                    <div class="attendance-card">
+                        <div id="reply-mode-indicator" class="reply-mode-bar">
+                            <span>Membalas ucapan: <strong id="replying-to-name">Nama Tamu</strong></span>
+                            <button type="button" id="cancel-reply" class="btn-close" aria-label="Batalkan balasan"
+                                style="border:none; background:none; color:#dc3545; cursor:pointer; font-weight:bold;">✕</button>
+                        </div>
+                        <form id="hybrid-form">
+                            <!-- Anti-Bot Honeypot Trap (Hidden from genuine users) -->
+                            <input type="text" id="att-honeypot" name="website_hp"
+                                style="display:none !important; position:absolute !important; left:-9999px !important;"
+                                tabindex="-1" autocomplete="off" aria-hidden="true">
+                            <div class="form-group">
+                                <label for="att-name">Nama Lengkap</label>
+                                <input type="text" id="att-name" placeholder="Masukkan nama Anda" required
+                                    pattern="[A-Za-z0-9\s.,'&amp;\/\(\)\+\-]+"
+                                    title="Nama hanya boleh berisi huruf, angka, spasi, titik, koma, petik, ampersand (&amp;), tanda tambah (+), tanda hubung, garis miring, atau tanda kurung"
+                                    maxlength="50">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group flex-1">
+                                    <label for="att-status">Kehadiran</label>
+                                    <select id="att-status" required>
+                                        <option value="" disabled selected>Pilih Konfirmasi</option>
+                                        <option value="Hadir">Hadir</option>
+                                        <option value="Tidak Hadir">Tidak Hadir</option>
+                                    </select>
+                                </div>
+                                <div class="form-group flex-1" id="count-group">
+                                    <label for="att-count">Jumlah Tamu</label>
+                                    <select id="att-count">
+                                        <option value="1">1 Orang</option>
+                                        <option value="2">2 Orang</option>
+                                        <option value="3">3 Orang</option>
+                                        <option value="4">4 Orang</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group emoji-field-group">
+                                <label for="att-message">Ucapan & Doa Restu</label>
+                                <div class="textarea-relative-wrapper">
+                                    <textarea id="att-message" placeholder="Tuliskan ucapan manis Anda..." rows="4"
+                                        required maxlength="500"></textarea>
+                                    <button type="button" id="btn-emoji-trigger" class="btn-emoji-trigger"
+                                        aria-label="Buka keyboard emoji" title="Sisipkan Emoji">
+                                        <i class="bi bi-emoji-smile"></i>
+                                    </button>
+                                    <div id="emoji-picker-dropdown" class="emoji-picker-dropdown"
+                                        style="display: none;">
+                                        <emoji-picker class="light"></emoji-picker>
+                                    </div>
+                                </div>
+                                <small id="char-counter"
+                                    style="display: block; text-align: right; color: #999; margin-top: 5px;">0 /
+                                    500</small>
+                            </div>
+                            <button type="submit" class="btn-event w-100">Kirim Kehadiran & Ucapan</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Kolom Feed Ucapan (Kanan) -->
+                <div class="attendance-list-container" data-aos="fade-left" data-aos-delay="200">
+                    <div class="attendance-card" style="display: flex; flex-direction: column; height: 100%;">
+                        <div class="feed-header">
+                            <span id="message-counter">0</span> Komentar<span id="guest-stats-wrapper"
+                                style="display: none;"> • <span id="guest-counter">0</span> Tamu Hadir</span>
+                        </div>
+                        <div id="guestbook-list" class="guestbook-list">
+                            <!-- Pesan yang Disematkan -->
+                            <div id="pinned-messages-list" class="pinned-messages-list" style="display: none;"></div>
+                            <!-- Pesan Reguler -->
+                            <div id="regular-messages-list" class="regular-messages-list"></div>
+                        </div>
+                        <!-- Navigasi Pesan -->
+                        <div id="pagination-controls" class="pagination-controls"
+                            style="display: none; justify-content: space-between; align-items: center; margin-top: 15px; padding-bottom: 0;">
+                            <button id="btn-prev-gb" class="btn-event outline"
+                                style="padding: 8px 18px; font-size: 0.75rem;" disabled>Prev</button>
+                            <button id="btn-next-gb" class="btn-event outline"
+                                style="padding: 8px 18px; font-size: 0.75rem;">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         10. TANDA KASIH & PENGIRIMAN KADO FISIK (REKENING BANK)
+         ========================================================================== -->
+    <section id="gift" class="gift-section">
+        <div class="container text-center">
+            <h2 class="cinzel-font section-title" data-aos="fade-up">Wedding Gift</h2>
+            <div class="gift-layout-wrapper mt-5">
+                <!-- Kolom Kiri: Digital-->
+                <div class="gift-column gift-column-left" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gift-header">
+                        <i class="bi bi-bank"></i>
+                        <h3 class="cinzel-font">Digital Tanda Kasih</h3>
+                    </div>
+                    <div class="bank-card-container-stacked">
+                        <!-- Kartu Bank 1 -->
+                        <div class="bank-card">
+                            <div class="bank-logo">Bank BJB</div>
+                            <div class="bank-details-flex-wrapper">
+                                <div class="bank-number-display">
+                                    <div class="bank-number">0139472241100</div>
+                                </div>
+                                <div class="bank-name">Anugrah Shafaat</div>
+                                <button class="btn-copy" data-copy="0139472241100">
+                                    <i class="bi bi-copy"></i> Salin Nomor
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Kartu Bank 2 -->
+                        <div class="bank-card">
+                            <div class="bank-logo">SeaBank</div>
+                            <div class="bank-details-flex-wrapper">
+                                <div class="bank-number-display">
+                                    <div class="bank-number">901651295505</div>
+                                </div>
+                                <div class="bank-name"> Sri Endah Farhatunnisa</div>
+                                <button class="btn-copy" data-copy="901651295505">
+                                    <i class="bi bi-copy"></i> Salin Nomor
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Kartu Bank 3 -->
+                        <div class="bank-card">
+                            <div class="bank-logo">Dana</div>
+                            <div class="bank-details-flex-wrapper">
+                                <div class="bank-number-display">
+                                    <div class="bank-number">081258742958</div>
+                                </div>
+                                <div class="bank-name">Anugrah Shafaat</div>
+                                <button class="btn-copy" data-copy="081258742958">
+                                    <i class="bi bi-copy"></i> Salin Nomor
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Kartu Bank 4 -->
+                        <div class="bank-card">
+                            <div class="bank-logo">Dana</div>
+                            <div class="bank-details-flex-wrapper">
+                                <div class="bank-number-display">
+                                    <div class="bank-number">083879679668</div>
+                                </div>
+                                <div class="bank-name"> Sri Endah Farhatunnisa</div>
+                                <button class="btn-copy" data-copy="083879679668">
+                                    <i class="bi bi-copy"></i> Salin Nomor
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kolom Kanan: Fisik -->
+                <div class="gift-column gift-column-right" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gift-header">
+                        <i class="bi bi-gift"></i>
+                        <h3 class="cinzel-font">Hadiah Fisik</h3>
+                    </div>
+                    <p class="gift-text">Jika anda ingin memberikan hadiah fisik atau kado, mohon alamatkan ke alamat
+                        rumah kami.</p>
+
+                    <div class="address-box">
+                        <div class="address-item">
+                            <i class="bi bi-house-door"></i>
+                            <div>
+                                <strong>Alamat Pengiriman</strong>
+                                <p>Kp.luwung semut Desa, Jeruktipis, Kec. Kragilan, Kabupaten Serang, Banten 42184</p>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <i class="bi bi-person-check"></i>
+                            <div>
+                                <strong>Penerima</strong>
+                                <p>Anugrah Shafaat & Sri Endah Farhatunnisa</p>
+                            </div>
+                        </div>
+                        <a href="https://maps.app.goo.gl/VzRQcqybfTWrLRNd9" target="_blank" rel="noopener noreferrer"
+                            class="btn-map">
+                            <i class="bi bi-geo-alt-fill"></i> Lihat Lokasi
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         11. FOOTER UTAMA, MEDIA SOSIAL & HAK CIPTA
+         ========================================================================== -->
+    <footer id="main-footer">
+        <div class="container text-center">
+            <div class="footer-top">
+                <i class="bi bi-envelope-heart footer-top-icon" data-aos="fade-up" data-aos-offset="0"></i>
+                <p class="footer-thankyou cinzel-font" data-aos="fade-up" data-aos-delay="50" data-aos-offset="0">Wassalamu’alaikum warahmatullahi wabarakatuh</p>
+                <p class="footer-description" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">Suatu
+                    kehormatan dan kebahagiaan bagi kami, jika Anda bersedia hadir dan memberikan restu kepada kami.</p>
+                <h3 class="footer-names cinzel-font" data-aos="fade-up" data-aos-delay="150" data-aos-offset="0">Aang &
+                    Endah</h3>
+            </div>
+
+            <p class="footer-made-by" data-aos="fade-up" data-aos-delay="150" data-aos-offset="0">Made with <i
+                    class="bi bi-heart-fill"></i> by us</p>
+            <!-- <div class="footer-social" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+                <a href="_" target="_blank" rel="noopener noreferrer"
+                    class="social-instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="" target="_blank" rel="noopener noreferrer"
+                    class="social-facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="" target="_blank" rel="noopener noreferrer" class="social-whatsapp"
+                    aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="" target="_blank" rel="noopener noreferrer" class="social-github"
+                    aria-label="GitHub"><i class="bi bi-github"></i></a>
+            </div> -->
+
+            <p class="footer-copyright" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">&copy; <span
+                    id="current-year"></span> Aang & Endah. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ==========================================================================
+         12. MODAL OVERLAY, LIGHTBOX FOTO & KONTAINER NOTIFIKASI TOAST
+         ========================================================================== -->
+    <!-- Lightbox untuk Galeri -->
+    <div id="lightbox" class="lightbox">
+        <div id="lightbox-counter" class="lightbox-counter"></div>
+        <div class="lightbox-toolbar">
+            <button id="btn-fullscreen" class="toolbar-btn" title="Layar Penuh" aria-label="Layar Penuh"><i
+                    class="bi bi-arrows-fullscreen"></i></button>
+            <button id="btn-zoom" class="toolbar-btn" title="Zoom Foto" aria-label="Zoom Foto"><i
+                    class="bi bi-zoom-in"></i></button>
+            <button id="btn-download" class="toolbar-btn" title="Simpan Foto" aria-label="Unduh Foto"><i
+                    class="bi bi-download"></i></button>
+            <button id="btn-close" class="toolbar-btn" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="lightbox-loader" id="lightbox-loader">
+            <div class="spinner"></div>
+            <p class="loader-text">Loading...</p>
+        </div>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Foto Sebelumnya">&lt;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Preview Foto">
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Foto Berikutnya">&gt;</button>
+    </div>
+
+    <!-- Custom Confirmation Modal -->
+    <div id="custom-confirm-modal" class="custom-modal">
+        <div class="modal-content-confirm">
+            <div class="modal-header-confirm">
+                <i class="bi bi-exclamation-triangle-fill"></i>
+            </div>
+            <h3 class="cinzel-font">Hapus Ucapan?</h3>
+            <p>Apakah Anda yakin ingin menghapus ucapan ini? Tindakan ini tidak dapat dibatalkan.</p>
+            <div class="modal-actions-confirm">
+                <button id="btn-cancel-confirm" class="btn-event outline">Batal</button>
+                <button id="btn-delete-confirm" class="btn-event">Hapus</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modern Password Modal for Mode Mempelai -->
+    <div id="mempelai-auth-modal" class="custom-modal">
+        <div class="modal-content-confirm auth-modal-content">
+            <div class="modal-header-confirm auth-header-icon">
+                <i class="bi bi-shield-lock-fill"></i>
+            </div>
+            <h3 class="cinzel-font">Akses Mempelai</h3>
+            <p>Masukkan kata sandi khusus untuk mengaktifkan Mode Mempelai.</p>
+            <form id="mempelai-auth-form" class="auth-form">
+                <div class="auth-input-wrapper">
+                    <i class="bi bi-key auth-input-icon"></i>
+                    <input type="password" id="mempelai-password-input" placeholder="Kata sandi..." autocomplete="off"
+                        required>
+                    <button type="button" id="btn-toggle-mempelai-pwd" class="btn-toggle-pwd"
+                        aria-label="Lihat kata sandi">
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </div>
+                <div class="modal-actions-confirm">
+                    <button type="button" id="btn-cancel-auth" class="btn-event outline">Batal</button>
+                    <button type="submit" id="btn-submit-auth" class="btn-event">Masuk</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- ==========================================================================
+         13. SKRIP SISI KLIEN & PUSTAKA EKSTERNAL
+         ========================================================================== -->
+    <!-- Twemoji for Universal WhatsApp-style Vector Emojis -->
+    <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

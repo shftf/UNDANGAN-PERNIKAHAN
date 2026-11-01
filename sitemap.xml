@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://winanda150.github.io/pawiwahan-theme-1/</loc>
+        <lastmod>2026-01-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://winanda150.github.io/pawiwahan-theme-1/Elemen/Photo%20Gallery/Foto5.webp</image:loc>
+            <image:title>Undangan Pawiwahan Edi dan Winda</image:title>
+            <image:caption>Foto Pernikahan Anugrah Shafaat dan Sri Endah Farhatunnisa</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://winanda150.github.io/pawiwahan-theme-1/Elemen/Photo%20Gallery/Cover1.webp</image:loc>
+            <image:title>Cover Undangan aang dan een</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://winanda150.github.io/pawiwahan-theme-1/Elemen/Foto%20Pasangan/Foto%20Mempelai%20Pria.webp</image:loc>
+            <image:title>Mempelai Pria - Anugrah Shafaat</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://winanda150.github.io/pawiwahan-theme-1/Elemen/Foto%20Pasangan/Foto%20Mempelai%20Wanita.webp</image:loc>
+            <image:title>Mempelai Wanita - Sri Endah Farhatunnisa</image:title>
+        </image:image>
+    </url>
+</urlset>
