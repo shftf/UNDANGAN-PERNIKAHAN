@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 
 # Host & Sitemap
-Host: https://winanda150.github.io
-Sitemap: https://winanda150.github.io/pawiwahan-theme-1/sitemap.xml
+Host: https://shftf.github.io
+Sitemap: https://shftf.github.io/UNDANGAN-PERNIKAHAN/sitemap.xml
